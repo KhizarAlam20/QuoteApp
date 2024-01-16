@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:backgroundTint="#E886BD"
+        app:cardCornerRadius="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABCD"
+            android:id="@+id/tv_quote"
+            android:textSize="30sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABCD"
+            android:id="@+id/tv_writer"
+            android:textSize="30sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="160dp"
+            android:textColor="#716F6F"
+            >
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/back_btn"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                tools:ignore="MissingConstraints">
+
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_btn"
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/baseline_share_24"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next_btn"
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/baseline_navigate_next_24"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</LinearLayout>
+
+</LinearLayout>
